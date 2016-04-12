@@ -1,0 +1,22 @@
+{
+  "name": "wk23.1lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classwork1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcode777/wk23.1lodash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcode777/wk23.1lodash/issues"
+  },
+  "homepage": "https://github.com/Marcode777/wk23.1lodash#readme",
+  "dependencies": {
+    "lodash": "^4.10.0"
+  }
+}
