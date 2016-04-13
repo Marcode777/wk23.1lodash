@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Marcode777/wk23.1lodash#readme",
   "dependencies": {
-    "lodash": "^4.10.0"
+    "lodash": "^4.10.0",
+    "request-promise": "^2.0.1"
   }
 }
