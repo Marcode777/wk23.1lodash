@@ -3,7 +3,7 @@
 var _ = require("lodash");
 
 
-var presidentialCandididatesOfDoom = [
+var presidentialCandidatesOfDoom = [
         {
             "name": "Bern",
             "lairs": [{"name":"Washington"}, {"name": "Vermont"}, {"name": "Brooklyn"}]
@@ -59,7 +59,7 @@ var presidentialCandididatesOfDoom = [
 
 // to get them all in alhpabetical order
 
-   // var lairs = _.map(presidentialCandididatesOfDoom, function (candidate){
+   // var lairs = _.map(presidentialCandidatesOfDoom, function (candidate){
    //      return_.map(candidate.lairs, function(lair){
    //          return lair.name;
    //      });
@@ -70,7 +70,7 @@ var presidentialCandididatesOfDoom = [
 
 // now to sort them
 
- var lairs = _.map(presidentialCandididatesOfDoom, function (candidate){
+ var lairs = _.map(presidentialCandidatesOfDoom, function (candidate){
         return _.map(candidate.lairs, function(lair){
             return lair.name;
         });
